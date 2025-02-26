@@ -1,0 +1,118 @@
+.display-card {
+    display: flex;
+    background: linear-gradient(to right, darkgreen, lightgreen);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 430px;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+
+    &__item--time {
+        align-self: flex-start;
+        margin-right: auto;
+
+        @media (max-width: 1024px) {
+            max-width: 30%;
+            margin-right: 20px;
+        }
+    }
+
+    &__text {
+        @media (max-width: 1024px) {
+            justify-content: center;
+        }
+    }
+
+    &__item {
+        display: flex;
+
+        @media (max-width: 1024px) {
+            display: block;
+            max-width: 70%;
+        }
+
+        &--img {
+            width: 160px;
+
+            @media (max-width: 1024px) {
+                width: 40%;
+            }
+        }
+
+        &__title {
+            color:#fff;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+            font-size: 1rem;
+
+            @media (max-width: 1024px) {
+                font-size: 0.8rem;
+            }
+        }
+
+        &__description {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+            font-size: 14px;
+
+            @media (max-width: 1024px) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.show_clubs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+
+    @media (max-width: 1024px) {
+        display: inline;
+    }
+
+    &__title {
+        margin: 20px;
+        font-size: large;
+        font-size: 3rem;
+        padding: 15px;
+        background: radial-gradient(circle, rgb(255, 230, 0), black);
+        color: #fff;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        @media (max-width: 1024px) {
+            font-size: 1.0rem;
+        }
+    }
+    
+}
+
+#clubs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+
+    @media (max-width: 1024px) {
+        height: 80%;
+    }
+}
+
+.link__club {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2px;
+    background: radial-gradient(circle, white, black);
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

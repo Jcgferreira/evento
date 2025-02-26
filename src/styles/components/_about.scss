@@ -1,0 +1,48 @@
+#about {
+    background: radial-gradient(circle, gold, black);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+
+    &__video-container {
+        max-width: 200%;
+        
+        iframe {
+            width: 450px;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            @media (max-width: 1024px) {
+                width: 250px;
+                height: 181px;
+            }
+        }
+    }
+
+    &__description {
+        max-width: 35%;
+        color: #fff;
+
+        @media (max-width: 1024px) {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+}

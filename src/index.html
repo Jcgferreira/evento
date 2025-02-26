@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 </head>
 <body>
@@ -40,5 +41,159 @@
             </div>
         </div>
     </header>
+
+    <section id="about" >
+        <div class="container" data-aos="fade-up">
+            <h2 class="about__title show_clubs__title">SOBRE A KINGS LEAGUE</h2>
+            <div class="about">
+                <p class="about__description">A Kings League é a maior competição amadora de FUT7 do Brasil. Com 10 clubes, a competição terá início no dia 21 de dezembro e será transmitida ao vivo pelos canais da Cazé TV e Gaules. A competição contará com a presença de diversos influenciadores e personalidades do cenário de games e esportes eletrônicos.</p>
+                <div class="about__video-container">
+                    <iframe class="about__video" src="https://www.youtube.com/embed/EIZthA6pmFQ" frameborder="560" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="clubs" >
+        <div class="container" data-aos="fade-up">
+            <h2 class="show_clubs__title">CONHEÇA OS CLUBES</h2>
+            <div class="show_clubs">
+                <a class="link__club" href="https://kingsleague.pro/pt/teams/161-dendele-fc">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(7, 0, 100), rgb(236, 238, 144));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/dendele.webp" alt="dendele" class="display-card__item--time">
+                            <img src="./images/presidentes/paulinho_luqueta.webp" alt="luva_jon_vlogs" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Dendele FC</h3>
+                            <p class="display-card__item__description">Paulinho o Loko + LuquEt4</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="link__club" href="https://kingsleague.pro/pt/teams/167-capim-fc">
+                    <div class="display-card">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/capim.webp" alt="capim" class="display-card__item--time">
+                            <img src="./images/presidentes/luva_jon_vlogs.webp" alt="luva_jon_vlogs" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Capim FC</h3>
+                            <p class="display-card__item__description">Luva de Pedreiro + Jon Vlogs</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/168-desimpedidos-goti" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(0, 23, 100), rgb(7, 245, 7));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/desimpedidos.webp" alt="desimpedidos" class="display-card__item--time">
+                            <img src="./images/presidentes/toguro_yuri.webp" alt="toguro_yuri" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Desimpedidos Goti</h3>
+                            <p class="display-card__item__description">Toguro + Yuri 22</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/166-fc-real-elite" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(5, 59, 236), rgb(144, 211, 238));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/real_elite.webp" alt="real_elite" class="display-card__item--time">
+                            <img src="./images/presidentes/stag_ludmilla.webp" alt="stag_ludmilla" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">FC Real Elite</h3>
+                            <p class="display-card__item__description">Ludmilla + Allan Stag</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/160-fluxo-fc" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(38, 2, 80), lightgreen);">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/fluxo.webp" alt="fluxo" class="display-card__item--time">
+                            <img src="./images/presidentes/nobru_cerol.webp" alt="nobru_cerol" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Fluxo FC</h3>
+                            <p class="display-card__item__description">Cerol + Nobru</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/164-funkbol-clube" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(216, 6, 104), rgb(102, 18, 158));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/funkbol.webp" alt="funkbol" class="display-card__item--time">
+                            <img src="./images/presidentes/kond_michel_hariel.webp" alt="kond_michel_hariel" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Funkbol Clube</h3>
+                            <p class="display-card__item__description">Kond + Michel Elias + Mc Hariel</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/50-furia-fc" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(106, 112, 106));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/furia.webp" alt="furia" class="display-card__item--time">
+                            <img src="./images/presidentes/neymar_cris.webp" alt="neymar_cris" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Furia F.C</h3>
+                            <p class="display-card__item__description">Neymar + Cris Guedes</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/49-g3x-fc" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(133, 143, 179), rgb(77, 62, 139));">
+                        <div class="display-card__item ">
+                            <img src="./images/logo_times/g3x.webp" alt="g3x" class="display-card__item--time">
+                            <img src="./images/presidentes/gaules_k9.webp" alt="gaules_k9" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">G3X FC</h3>
+                            <p class="display-card__item__description">Gaules + Kelvin</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/162-loud-sc" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(18, 117, 14), rgb(15, 70, 1));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/loud.webp" alt="loud" class="display-card__item--time">
+                            <img src="./images/presidentes/coringa.webp" alt="coringa" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">LOUD SC</h3>
+                            <p class="display-card__item__description">Coringa</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kingsleague.pro/pt/teams/163-nyvelados-fc" class="link__club">
+                    <div class="display-card" style="background: linear-gradient(to right, rgb(187, 2, 204), rgb(77, 9, 167));">
+                        <div class="display-card__item">
+                            <img src="./images/logo_times/nyvelados.webp" alt="nyvelados" class="display-card__item--time">
+                            <img src="./images/presidentes/nyvi.webp" alt="nyvi" class="display-card__item--img">
+                        </div>
+                        <div class="display-card__text">
+                            <h3 class="display-card__item__title">Nyvelados FC</h3>
+                            <p class="display-card__item__description">Nyvi Estephan</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="ticket">
+        <div class="container" data-aos="fade-up">
+            <h2 class="ticket__title">Mergulhe na Emoção do FUT7: A Liga Mais Acompanhada do Brasil!</h2>
+            <div class="ticket">
+                <p class="ticket__description">Prepare-se para vibrar com a liga de FUT7 mais assistida do Brasil, um espetáculo de habilidade, velocidade e paixão que promete agitar o cenário esportivo. A competição, que reúne os melhores times e jogadores da modalidade, terá início no dia 21 de dezembro, marcando o começo de uma temporada repleta de adrenalina e jogadas memoráveis.</p>
+                <p class="ticket__description">Para não perder nenhuma novidade sobre a liga, siga os canais da CazéTV e Gaules nas redes sociais e acompanhe os portais esportivos. Prepare a torcida e venha fazer parte dessa festa do FUT7!</p>
+                <span id="contador"></span> <br> <br>
+                <a href="https://kingsleague.pro/pt/brazil" class="ticket__button">KINGS LEAGUE BRAZIL</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

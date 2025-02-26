@@ -12,7 +12,7 @@
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
-        @media (max-width: 640px) {
+        @media (max-width: 1024px) {
             font-size: 1rem;
         }
     }
@@ -59,7 +59,7 @@
         text-align: center;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 1024px) {
         &__title {
             font-size: 32px;
         }
